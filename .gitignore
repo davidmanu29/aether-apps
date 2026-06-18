@@ -23,6 +23,17 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+# Visual Studio
+.vs/
+**/.vs/
+
+# User-specific project files
+*.user
+*.csproj.user
+*.vbproj.user
+*.fsproj.user
+*.http
+
 # .NET Core
 project.lock.json
 project.fragment.lock.json
