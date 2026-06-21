@@ -1,3 +1,15 @@
 <Solution>
-  <Project Path="Aether.csproj" />
+  <Folder Name="/BuildingBlocks/">
+    <Project Path="BuildingBlocks/Aether.BuildingBlocks.Application/Aether.BuildingBlocks.Application.csproj" />
+    <Project Path="BuildingBlocks/Aether.BuildingBlocks.Domain/Aether.BuildingBlocks.Domain.csproj" />
+    <Project Path="BuildingBlocks/Aether.BuildingBlocks.Infrastructure/Aether.BuildingBlocks.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Modules/" />
+  <Folder Name="/Modules/Auth/">
+    <Project Path="Modules/Auth/Aether.Auth.Application/Aether.Auth.Application.csproj" />
+    <Project Path="Modules/Auth/Aether.Auth.Contracts/Aether.Auth.Contracts.csproj" />
+    <Project Path="Modules/Auth/Aether.Auth.Domain/Aether.Auth.Domain.csproj" />
+    <Project Path="Modules/Auth/Aether.Auth.Infrastructure/Aether.Auth.Infrastructure.csproj" />
+  </Folder>
+  <Project Path="Aether.Api/Aether.Api.csproj" />
 </Solution>
